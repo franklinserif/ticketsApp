@@ -14,6 +14,11 @@ class AppStyles {
     fontSize: 26,
     fontWeight: FontWeight.w700,
     color: textColor,
+  );
+
+  static TextStyle headLineStyle2 = TextStyle(
+    fontSize: 21,
+    fontWeight: FontWeight.bold,
     color: textColor,
   );
 
