@@ -22,7 +22,7 @@ class AppStyles {
     color: textColor,
   );
 
-  static TextStyle headLineStyle3 = TextStyle(
+  static TextStyle headLineStyle3 = const TextStyle(
     fontSize: 17,
     fontWeight: FontWeight.w500,
   );
