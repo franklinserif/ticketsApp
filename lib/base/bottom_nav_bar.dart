@@ -30,7 +30,6 @@ class _BottomNavBarState extends State<BottomNavBar> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: Text('My tickets')),
         body: Center(
           child: appScreens[_selectedIndex],
         ),
