@@ -9,6 +9,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       // we want scroll effect
+      backgroundColor: AppStyles.bgColor,
       body: ListView(
         children: [
           Container(
