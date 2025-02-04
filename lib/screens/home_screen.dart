@@ -11,8 +11,8 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // we want scroll effect
       backgroundColor: AppStyles.bgColor,
+      // we want scroll effect
       body: ListView(
         children: [
           const SizedBox(height: 40),
@@ -66,6 +66,7 @@ class HomeScreen extends StatelessWidget {
                     bigText: 'Upcomming Flights',
                     smallText: 'View all',
                   ),
+                  const SizedBox(height: 20),
                   TicketView(),
                 ],
               )),
